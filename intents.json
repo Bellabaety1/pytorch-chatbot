@@ -1,84 +1,142 @@
-{
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
-      ],
-      "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
-      ]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
-    }
-  ]
-}
+{'intents': [
+   
+   {'tag': 'staff login',
+   'patterns': ['Guide me to staff login?',
+    'Where do you get staff login?',
+    'What is the link to the staff login?',
+    'How do you get staff login?',
+    'Who is in Charge of staff login?'],
+   'responses': ['You can use this link https://mail.rra.gov.rw/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fmail.rra.gov.rw%2fowa%2f for more information']},
+  {'tag': 'rwanda trade portal                                                ',
+   'patterns': ['Guide me to rwanda trade portal                                                ?',
+    'Where do you get rwanda trade portal                                                ?',
+    'What is the link to the rwanda trade portal                                                ?',
+    'How do you get rwanda trade portal                                                ?',
+    'Who is in Charge of rwanda trade portal                                                ?'],
+   'responses': ['You can use this link https://rwandatrade.rw/ for more information']},
+  {'tag': '                click to declare                 ',
+   'patterns': ['Guide me to                 click to declare                 ?',
+    'Where do you get                 click to declare                 ?',
+    'What is the link to the                 click to declare                 ?',
+    'How do you get                 click to declare                 ?',
+    'Who is in Charge of                 click to declare                 ?'],
+   'responses': ['You can use this link https://etax.rra.gov.rw/ for more information']},
+  {'tag': 'click ',
+   'patterns': ['Guide me to click ?',
+    'Where do you get click ?',
+    'What is the link to the click ?',
+    'How do you get click ?',
+    'Who is in Charge of click ?'],
+   'responses': ['You can use this link https://etax.rra.gov.rw/ for more information']},
+  {'tag': 'click',
+   'patterns': ['Guide me to click?',
+    'Where do you get click?',
+    'What is the link to the click?',
+    'How do you get click?',
+    'Who is in Charge of click?'],
+   'responses': ['You can use this link https://myrra.rra.gov.rw/basic/login/indexLogin for more information']},
+  {'tag': 'click',
+   'patterns': ['Guide me to click?',
+    'Where do you get click?',
+    'What is the link to the click?',
+    'How do you get click?',
+    'Who is in Charge of click?'],
+   'responses': ['You can use this link https://localgov.rra.gov.rw/login for more information']},
+  {'tag': 'declare domestic taxes ',
+   'patterns': ['Guide me to declare domestic taxes ?',
+    'Where do you get declare domestic taxes ?',
+    'What is the link to the declare domestic taxes ?',
+    'How do you get declare domestic taxes ?',
+    'Who is in Charge of declare domestic taxes ?'],
+   'responses': ['You can use this link https://etax.rra.gov.rw/ for more information']},
+  {'tag': 'declare district revenues',
+   'patterns': ['Guide me to declare district revenues?',
+    'Where do you get declare district revenues?',
+    'What is the link to the declare district revenues?',
+    'How do you get declare district revenues?',
+    'Who is in Charge of declare district revenues?'],
+   'responses': ['You can use this link https://localgov.rra.gov.rw/rlgmsHome for more information']},
+  {'tag': 'declare non fiscal revenue ',
+   'patterns': ['Guide me to declare non fiscal revenue ?',
+    'Where do you get declare non fiscal revenue ?',
+    'What is the link to the declare non fiscal revenue ?',
+    'How do you get declare non fiscal revenue ?',
+    'Who is in Charge of declare non fiscal revenue ?'],
+   'responses': ['You can use this link https://nonfiscal.rra.gov.rw/ for more information']},
+  {'tag': 'electronic single window',
+   'patterns': ['Guide me to electronic single window?',
+    'Where do you get electronic single window?',
+    'What is the link to the electronic single window?',
+    'How do you get electronic single window?',
+    'Who is in Charge of electronic single window?'],
+   'responses': ['You can use this link https://sw.gov.rw/ for more information']},
+  {'tag': 'property tax registration request',
+   'patterns': ['Guide me to property tax registration request?',
+    'Where do you get property tax registration request?',
+    'What is the link to the property tax registration request?',
+    'How do you get property tax registration request?',
+    'Who is in Charge of property tax registration request?'],
+   'responses': ['You can use this link https://onlinereg.rra.gov.rw/ for more information']},
+  {'tag': 'tax handbook',
+   'patterns': ['Guide me to tax handbook?',
+    'Where do you get tax handbook?',
+    'What is the link to the tax handbook?',
+    'How do you get tax handbook?',
+    'Who is in Charge of tax handbook?'],
+   'responses': ['You can use this link https://tax-handbook.rra.gov.rw/ for more information']},
+  {'tag': 'rwanda trade portal ',
+   'patterns': ['Guide me to rwanda trade portal ?',
+    'Where do you get rwanda trade portal ?',
+    'What is the link to the rwanda trade portal ?',
+    'How do you get rwanda trade portal ?',
+    'Who is in Charge of rwanda trade portal ?'],
+   'responses': ['You can use this link https://rwandatrade.rw/ for more information']},
+  {'tag': 'rrainfo',
+   'patterns': ['Guide me to rrainfo?',
+    'Where do you get rrainfo?',
+    'What is the link to the rrainfo?',
+    'How do you get rrainfo?',
+    'Who is in Charge of rrainfo?'],
+   'responses': ['You can use this link https://twitter.com/rrainfo for more information']},
+  {'tag': 'rwanda revenue authority',
+   'patterns': ['Guide me to rwanda revenue authority?',
+    'Where do you get rwanda revenue authority?',
+    'What is the link to the rwanda revenue authority?',
+    'How do you get rwanda revenue authority?',
+    'Who is in Charge of rwanda revenue authority?'],
+   'responses': ['You can use this link https://web.facebook.com/RwandaRevenueAuthority?_rdc=1&_rdr for more information']},
+  {'tag': 'rwandarevenue',
+   'patterns': ['Guide me to rwandarevenue?',
+    'Where do you get rwandarevenue?',
+    'What is the link to the rwandarevenue?',
+    'How do you get rwandarevenue?',
+    'Who is in Charge of rwandarevenue?'],
+   'responses': ['You can use this link https://www.instagram.com/rwandarevenue/ for more information']},
+  {'tag': 'rwanda revenue authority',
+   'patterns': ['Guide me to rwanda revenue authority?',
+    'Where do you get rwanda revenue authority?',
+    'What is the link to the rwanda revenue authority?',
+    'How do you get rwanda revenue authority?',
+    'Who is in Charge of rwanda revenue authority?'],
+   'responses': ['You can use this link https://www.youtube.com/channel/UCO4zbegoG2MuTGj6qj8wApQ/ for more information']},
+  {'tag': 'rwandarevenue',
+   'patterns': ['Guide me to rwandarevenue?',
+    'Where do you get rwandarevenue?',
+    'What is the link to the rwandarevenue?',
+    'How do you get rwandarevenue?',
+    'Who is in Charge of rwandarevenue?'],
+   'responses': ['You can use this link https://www.flickr.com/photos/rwandarevenue for more information']},
+  {'tag': 'search for tin using national id',
+   'patterns': ['Guide me to search for tin using national id?',
+    'Where do you get search for tin using national id?',
+    'What is the link to the search for tin using national id?',
+    'How do you get search for tin using national id?',
+    'Who is in Charge of search for tin using national id?'],
+   'responses': ['You can use this link https://etax.rra.gov.rw/nidAssignedTIN/ for more information']},
+  {'tag': 'online property tax registration request',
+   'patterns': ['Guide me to online property tax registration request?',
+    'Where do you get online property tax registration request?',
+    'What is the link to the online property tax registration request?',
+    'How do you get online property tax registration request?',
+    'Who is in Charge of online property tax registration request?'],
+   'responses': ['You can use this link https://onlinereg.rra.gov.rw/ for more information']}]}
