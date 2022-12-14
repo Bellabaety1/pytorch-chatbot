@@ -1,5 +1,4 @@
 {'intents': [
-   
    {'tag': 'staff login',
    'patterns': ['Guide me to staff login?',
     'Where do you get staff login?',
